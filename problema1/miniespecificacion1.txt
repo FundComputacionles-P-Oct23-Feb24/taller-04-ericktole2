@@ -1,0 +1,24 @@
+Inicio
+kilovatiH, d[0-n]
+total, d[0-n]
+consumokv, d[0-n]
+edad, d[0-n]
+descuento ,[0-n]
+<< "Ingrese el costo del kilovatio/hora"
+>> kilovatoH
+<< " Ingrese el numero de kilovatios consumidos"
+>> consumokv
+<< "Ingrese su edad"
+>> edad 
+total<--(kilovatiosH * costokv)
+  Si edad > 65 entonces
+   descuento<-- total*0,15
+   total<-- total - descuento
+    <<"El valor total a pagar es"
+    <<total
+      De lo contrario
+       <<"El valor a pagar es"
+       <<total
+      Fin si
+   Fin si
+Fin

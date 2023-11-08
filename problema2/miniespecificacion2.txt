@@ -1,0 +1,21 @@
+Inicio
+nombreProducto, x(20)[{a-z}, {BS}, {A-Z}]
+total, d[0-n]
+cantidadProducto, d[0-n]
+precioProducto, d[0-n]
+descuento, d[0-n]
+<<"Ingrese el producto"
+>> nombreProducto
+<<"Ingrese la cantidad del producto"
+>> cantidadProducto
+<<"Ingrese el precio del producto"
+total<-- precioProducto*cantidadProducto
+  Si cantidadProducto > 50 entonces
+         descuento<-- total*0.15
+         total<-- total - descuento
+         << "El total a pagar por el articulo" + nombreProducto + " culla cantidad es " + cantidadProducto + "siendo como precio final: " + total
+     De lo contrario
+           << "El total a pagar por el articulo" + nombreProducto + " culla cantidad es " + cantidadProducto + "siendo como precio final: " + total 
+     Fin si 
+   Fin si
+Fin
