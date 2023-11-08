@@ -1,5 +1,5 @@
 Inicio
-kilovatiH, d[0-n]
+kilovatioH, d[0-n]
 total, d[0-n]
 consumokv, d[0-n]
 edad, d[0-n]
