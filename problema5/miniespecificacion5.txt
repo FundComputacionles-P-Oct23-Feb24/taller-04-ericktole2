@@ -1,0 +1,34 @@
+Inicio
+edad; d[0-n]
+litrosA; d[0-n]
+litrosC; d[0-n]
+minG; d[0-n]
+minP; d[0-n]
+descuento; d[0-n]
+totalA; d[0-n]
+totalM; d[0-n]
+<<"Ingrese los litros de agua que se usaron "
+>>litrosA
+<<"Ingrese el coso por litro"
+>>litrosC
+<<"Ingrese los minutos gastados"
+>>minG
+<<"Ingrese el precio por minuto"
+>>minP
+totalA<-- listrosA - litrosC
+totalM<-- minG * minP
+<<"Ingrese su edad"
+>>edad
+        Si edad <20 entonces
+           descuento<-- totalA*0.20
+           totalA<-- totalA - descuento
+           descuento<-- totalM*0.20
+           totalM<-- totalM - descuento
+            <<"El pago mensual del agua es:" + totalA
+            <<"El pago mensual del telefono es:" + totalM
+              De lo contrario 
+                <<"El pago mensual del agua es:" + totalA
+                 <<"El pago mensual del telefono es:" + totalM
+         Fin si
+Fin
+         

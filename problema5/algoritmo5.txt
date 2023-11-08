@@ -1,0 +1,11 @@
+Inicio 
+Pedir los litros de agua que se usaron
+Pedir el costo por litro
+Pedir el numero de minutos gastados 
+Pedir el precio por munuto
+Pedir la edad 
+Multiplicamos los costos por los litros de agua que se husaron 
+Multiplicamos los numeros de minutos por el precio unitario
+Si la edad <20 multiplicamos el total de las miltiplicaciones por el 0.20 individualmente de cada uno
+Caso contrario presentamos los resultados como estan
+FIN
