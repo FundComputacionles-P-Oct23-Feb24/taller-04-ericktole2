@@ -1,0 +1,15 @@
+Inicio
+temperaturaC, d[0-n]
+farenheit, d[0-n]
+kelvin, d[0-n]
+<< "Ingrese la temperatura en grados centigrados"
+>>temperaturasG
+    Si temperaturaG <0 and temperaturaG <= 100
+         farenheit<-- 9/5(temperaturaG)+32
+         kelvin<-- (temperaturaG)+273,15
+          <<"La temperatura en farengeit:" + farenheit
+          <<"La temperatura en kelvin:" + kelvin
+             De lo contrario
+               <<"La temperatura en celcius debe ser positiva y no mayor a 100"
+    Fin si
+Fin
