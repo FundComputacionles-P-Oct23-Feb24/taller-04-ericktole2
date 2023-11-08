@@ -1,0 +1,26 @@
+Inicio
+diasH, d[0-n]
+hoteP, d[0-n]
+descuento, d[0-n]
+subtotal, d[0-n]
+total, d[0-n]
+<<"Ingrese los dias que se quedara en el hotel"
+>> diasH
+<<"Ingrese precio por dia"
+>> hotelP
+       Si diasH >5 and diasH <=9 entonces
+           descuento<-- hotelP*0.10
+           De lo contrario
+                Si diasH >10 and diasH <=15 entonces
+                      descuento<-- hotelP*0.15
+                     De lo contrario
+                         Si diasH >15 entonces
+                             descuento<-- hotelP*0.20
+                         Fin si
+                 Fin si
+          Fin si
+total<-- subtotal - descuento
+<<"El subtotal es:" + subtotal
+<<"El descuento es:"  + descuento
+<<"El total es:" + total   
+Fin 
